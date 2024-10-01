@@ -1,0 +1,39 @@
+/* Color */
+
+:root {
+    --color-1: #000e88;
+
+    --color-2: #f9f9f9;
+
+    --color-3: #94bdf3;
+
+    --color-hover-1: #0047e0;
+
+    --background: #EFF6FF;
+
+    --footer: #1e3a8a;
+}
+
+.color-1 {
+    background-color: var(--color-1);
+}
+
+.color-2 {
+    background-color: var(--color-2);
+}
+
+.hover-menu:hover {
+    background-color: var(--color-hover-1);
+}
+
+.active-menu {
+    background-color: var(--color-1);
+}
+
+.background {
+    background-color: var(--background);
+}
+
+.footer {
+    background-color: var(--footer);
+}
